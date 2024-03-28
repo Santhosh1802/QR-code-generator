@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/home.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="center"></div>
+    <button onclick="logout()">Logout</button>
+        <div class="content">
+            <h1>QR code generator</h1>
+            <form action="/home" method="GET" id="qrForm">
+                <label for="qrtext">Enter your url</label><br>
+                <input type="text" id="qrtext" placeholder="url here" required><br>
+                <input type="submit" onclick="generate()">
+            </form>
+            <div id="qrblock">
+                <img src="" alt="" id="qrimage">
+            </div>
+        </div>
+        <script>
+            var qrtext=document.getElementById("qrtext");
+            var qrimage=document.getElementById("qrimage");
+            var qrblock=document.getElementById("qrblock");
+
+            qrForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            generateQR(qrtext.value);
+        });
+        function generateQR(text) {
+            qrimage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + text;
+            qrblock.classList.add("show-img");
+        }
+        function logout() {
+            window.location.href = "/";
+        }
+        </script>
+</body>
+</html>

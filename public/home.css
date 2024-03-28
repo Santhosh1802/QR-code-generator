@@ -1,0 +1,40 @@
+.content
+{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    background:rgba(70, 67, 67, 0.3);
+    border-radius: 2em;
+}
+input
+{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 2em;
+}
+button
+{
+    margin:20px;
+    padding: 10px;
+    border-radius: 2em;
+}
+label
+{
+    margin:20px;
+}
+#qrblock.show-img
+{
+    max-height: 300px;
+    margin: 10px auto;
+}
+*
+{
+    font-family: 'Segoe UI';
+    color: rgb(164, 100, 186);
+}
+body
+{
+    background: url("akath-design-capa-prancheta-1.jpg");
+}
