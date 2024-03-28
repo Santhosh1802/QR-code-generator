@@ -25,3 +25,7 @@ How-To-Run:
   (10)Then go to your browser and type:
       localhost:3000
   Yup now the QR code generator will be working fine and register and use it !!!
+  ![output_1](https://github.com/Santhosh1802/QR-code-generator/assets/71439086/da73ae1b-0bf1-49ef-95cc-719779432ef6)
+![output_2](https://github.com/Santhosh1802/QR-code-generator/assets/71439086/62b0f301-9f71-48d5-b9a8-dc1f848a5a25)
+![output_3](https://github.com/Santhosh1802/QR-code-generator/assets/71439086/e54a9c94-21e6-49c6-94e4-a70dbf352d19)
+
