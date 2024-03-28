@@ -22,7 +22,7 @@ How-To-Run:
   
   (5)Ignore the above steps if already have these above.
   
-  (6)Download the code and then open vs code and open the folder.
+  (6)Download https://github.com/Santhosh1802/QR-code-generator/archive/refs/heads/main.zip and extract the code and then open vs code and open the folder.
   
   (7)Open terminal and type the following command:
 
